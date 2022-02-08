@@ -19,8 +19,8 @@ pipeline {
             agent any
 
             steps {
-                    // sh 'sudo chmod +x /home/ubuntu/scripts/create_repository_git.sh'
-                    sh '/home/ubuntu/scripts/create_repository_git.sh'
+                    // sh 'sudo chmod +x ./create_repository_git.sh'
+                    sh './create_repository_git.sh'
             }
         }
     }
