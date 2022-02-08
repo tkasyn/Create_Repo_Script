@@ -7,7 +7,7 @@ pipeline {
 
             steps {
                     // sh 'sudo chmod +x ./create_repository_git.sh'
-                    sh './create_repository_git.sh'
+                    sh 'sudo ./create_repository_git.sh'
             }
         }
     }
