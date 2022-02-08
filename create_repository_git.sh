@@ -3,7 +3,7 @@
 # Setup Environment Variables
 export HOSTNAME=https://api.github.com                        # GitHub host address
 # export PORT=...                                             # GitHub Ent. port
-export AUTHN_TKN=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     # GitHub authorization token
+export AUTHN_TKN=...     # GitHub authorization token
 export REP_NAME=54879521                                  # Name for new GitHub repository 
 
 # Enter Repository Name, read it and set in var. REP_NAME
