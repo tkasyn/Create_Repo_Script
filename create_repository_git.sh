@@ -3,7 +3,7 @@
 # Setup Environment Variables
 export HOSTNAME=https://api.github.com                        # GitHub host address
 # export PORT=...                                             # GitHub Ent. port
-export AUTHN_TKN=...     # GitHub authorization token
+# export AUTHN_TKN=...                                        # GitHub authorization token
 export REP_NAME=54879521                                  # Name for new GitHub repository 
 
 # Enter Repository Name, read it and set in var. REP_NAME
@@ -17,6 +17,6 @@ curl \
   -H "Accept: application/vnd.github.v3+json" \
   ${HOSTNAME}/user/repos \
   -d '{"name":'${REP_NAME}'}' \
-  -H "authorization: bearer ${AUTHN_TKN}"
+  -H "authorization: bearer $GITHUB_TKN"
 
 # Display the Server's response
