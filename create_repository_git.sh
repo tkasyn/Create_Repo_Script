@@ -5,7 +5,7 @@ export HOSTNAME=https://api.github.com                        # GitHub host addr
 # export PORT=...                                             # GitHub Ent. port
 # export AUTHN_TKN=...                                        # GitHub authorization token
 # export REP_NAME=54879521444                                  # Name for new GitHub repository 
-GITHUB_TOKEN="${GITHUB_TKN}"
+# GITHUB_TOKEN="${GITHUB_TKN}"
 
 # Enter Repository Name, read it and set in var. REP_NAME
 # read -p "Enter New Repsitory Name: " REP_NAME
@@ -18,6 +18,6 @@ curl \
   -H "Accept: application/vnd.github.v3+json" \
   ${HOSTNAME}/user/repos \
   -d '{"name":'${REP_NAME}'}' \
-  -H "authorization: token ${GITHUB_TOKEN}"
+  -H "authorization: token ${GITHUB_TKN}"
 
 # Display the Server's response
