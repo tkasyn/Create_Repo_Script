@@ -9,7 +9,7 @@ pipeline {
                          // sh 'sudo chmod +x ./create_repository_git.sh'
                          sh 'chmod +x -R ${env.WORKSPACE}'
                          sh './create_repository_git.sh'  
-                         
+                         //}
                     }
        }
     }
