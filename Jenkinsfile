@@ -7,7 +7,7 @@ pipeline {
        stage ('Build') {
                 agent any
                 environment {
-                    GITHUB_TOKEN = "${GITHUB_TKN}"
+                    GITHUB_TOKEN = "$GITHUB_TKN"
                 }
                     steps {
                          //withCredentials([string(credentialsId: '7483dec3-81dc-40b6-9b62-49bce24ad193', variable: 'GITHUB_TKN')]) {
