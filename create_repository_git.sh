@@ -17,6 +17,6 @@ curl \
   -H "Accept: application/vnd.github.v3+json" \
   ${HOSTNAME}/user/repos \
   -d '{"name":'${REP_NAME}'}' \
-  -H "authorization: $GITHUB_TKN"
+  -H "authorization: bearer $GITHUB_TKN"
 
 # Display the Server's response
