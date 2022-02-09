@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 
 # Setup Environment Variables
 export HOSTNAME=https://api.github.com                        # GitHub host address
