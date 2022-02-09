@@ -4,7 +4,7 @@
 export HOSTNAME=https://api.github.com                        # GitHub host address
 # export PORT=...                                             # GitHub Ent. port
 # export AUTHN_TKN=...                                        # GitHub authorization token
-export REP_NAME=54879521444                                  # Name for new GitHub repository 
+# export REP_NAME=54879521444                                  # Name for new GitHub repository 
 
 # Enter Repository Name, read it and set in var. REP_NAME
 # read -p "Enter New Repsitory Name: " REP_NAME
