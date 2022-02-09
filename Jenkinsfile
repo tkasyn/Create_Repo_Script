@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GITHUB_TKN = credentials('7483dec3-81dc-40b6-9b62-49bce24ad193')
+        env.GITHUB_TKN = credentials('7483dec3-81dc-40b6-9b62-49bce24ad193')
     }
     stages {
        stage ('Build') {
